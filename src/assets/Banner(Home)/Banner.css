@@ -1,0 +1,16 @@
+.banner-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-content img {
+    width: 90%;
+  }

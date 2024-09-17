@@ -60,16 +60,6 @@
       overflow-x: auto;
       flex-wrap: nowrap;
     }
-
-    .colection-content::-webkit-scrollbar {
-      height: 5px;
-      background-color: #fff;
-    }
-    
-    .colection-content::-webkit-scrollbar-thumb {
-      background-color: #0060B1;
-      border-radius: 5px;
-    }
     
     .product-card {
       min-width: 70%;

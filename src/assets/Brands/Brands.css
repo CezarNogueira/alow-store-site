@@ -31,13 +31,17 @@
   }
 
   .brand-card img {
-    width: 100%;
+    width: 14rem;
     height: auto;
     border-radius: 10px;
     max-width: 200px;
     max-height: 200px;
   }
 
-  @media (max-width: 992px) {
-    
+  @media (max-width: 480px) {
+    .brands-elements {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      justify-content: start;
+    }
   }

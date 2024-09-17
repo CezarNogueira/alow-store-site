@@ -31,9 +31,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
+    bottom: 3rem;
   }
   
   .carousel-dot {
+    color: #0061b17a;
     background: none;
     border: none;
     font-size: 2em;
@@ -42,5 +45,5 @@
   }
   
   .carousel-dot.active {
-    color: #666;
+    color: #0060B1;
   }

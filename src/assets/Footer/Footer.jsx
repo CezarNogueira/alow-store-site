@@ -1,3 +1,4 @@
+import React from 'react';
 import './Footer.css';
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -5,6 +6,7 @@ import { FaTiktok } from "react-icons/fa";
 
 
 export default function Footer() {
+
     return (
         <div className='footer-container'>
             <div className='newsletter-wrapper'>
@@ -59,7 +61,7 @@ export default function Footer() {
                     </div>
                     <div className='fototer-content--faq'>
                         <h3>FAQ</h3>
-                        <p>FAQ - Orientações</p>
+                        <p>Orientações</p>
                     </div>
                     <div className='footer-content--atendimento'>
                         <h3>Atendimento</h3>

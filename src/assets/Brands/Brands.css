@@ -3,18 +3,22 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    gap: 1rem;
   }
   
   .brands-content {
     width: 90%;
+    height: 20rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
   }
 
   .brands-title { 
     width: 100%;
+    height: 2rem;
   }
 
   .brands-title p {
@@ -24,6 +28,8 @@
   }
 
   .brands-elements {
+    width: 100%;
+    height: 14rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,11 +37,17 @@
   }
 
   .brand-card img {
-    width: 14rem;
+    width: 10rem;
     height: auto;
     border-radius: 10px;
     max-width: 200px;
     max-height: 200px;
+    transition: all 0.2s;
+  }
+
+  .brand-card img:hover {
+    width: 11rem;
+    height: auto;
   }
 
   @media (max-width: 480px) {
@@ -43,5 +55,10 @@
       overflow-x: auto;
       flex-wrap: nowrap;
       justify-content: start;
+    }
+
+    .brand-card img {
+      max-width: 8rem;
+      max-height: 8rem;
     }
   }

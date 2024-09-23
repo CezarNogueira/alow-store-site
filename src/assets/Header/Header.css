@@ -5,11 +5,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
   }
   
   .header-wrapper {
     width: 80%;
+    padding: 0 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    gap: 12rem;
+    gap: 1%;
   }
 
   .header-element--hamburger {
@@ -38,14 +38,17 @@
   }
   
   .header-elements--searchbar {
-    flex: 1;
     width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .header-searchbar--form {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
   }
 
   .header-elements--searchbar-mobile{
@@ -100,25 +103,17 @@
     height: auto;
   }
   
-  @media (max-width: 992px) {
-    .header-content {
-      align-items: center;
-    }
-
-    .header-element--favorite,
-    .header-element--support {
-      display: none;
-    }
-  }
-  
   @media (max-width: 768px) {
     .header-container {
       height: 120px;
     }
     .header-wrapper {
+      width: 100%;
       flex-direction: column;
     }
     .header-content {
+      width: 100%;
+      align-items: center;
       justify-content: space-between;
       flex-direction: row;
     }
@@ -130,16 +125,29 @@
       width: 80px;
       height: auto;
     }
+
+    .header-element--favorite,
+    .header-element--support {
+      display: none;
+    }
+
     .header-elements--searchbar {
       display: none;
     }
-    .header-elements--searchbar-mobile{
+    .header-elements--searchbar-mobile {
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
     }
     .searchbar-form--input {
-      width: 150px;
+      width: 100%;
+    }
+    .header-element--hamburger {
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
   

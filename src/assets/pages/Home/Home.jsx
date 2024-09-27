@@ -1,12 +1,12 @@
 import './Home.css';
-import Carousel from '../Carousel/Carousel.jsx';
-import Banner from '../Banner(Home)/Banner.jsx';
-import Colection from '../Colection/Colection.jsx';
-import Brands from '../Brands/Brands.jsx';
+import Carousel from '../../components/Carousel/Carousel.jsx';
+import Banner from '../../components/Banner/Banner.jsx';
+import Colection from '../../components/Colection/Colection.jsx';
+import Brands from '../../components/Brands/Brands.jsx';
 
 export default function Home() {
     return (
-        <div className='main-container'>
+        <div className='home-container'>
             <section>
                 <div className='carousel-wrapper'>
                     <Carousel />

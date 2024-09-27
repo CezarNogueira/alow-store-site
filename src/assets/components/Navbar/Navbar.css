@@ -27,6 +27,11 @@
     cursor: pointer;
 }
 
+.NavLink {
+    text-decoration: none;
+    color: inherit;
+}
+
 .navbar-div {
     width: 1px;
     height: 12px;

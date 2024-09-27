@@ -1,4 +1,5 @@
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     return (
@@ -11,7 +12,7 @@ export default function Navbar() {
                 
                     <div className='navbar-div'></div>
                     <div className='navbar-text'>
-                        <p>OFERTAS DO DIA</p>
+                        <Link className="NavLink" to="/day-sales">OFERTAS DO DIA</Link>
                     </div>
 
                     <div className='navbar-div'></div>

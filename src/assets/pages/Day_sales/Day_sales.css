@@ -1,0 +1,15 @@
+.main-container {
+    width: 100%;
+    background-color: #FAFAFB;
+}
+
+.main-container section {
+    padding: 2% 0px;
+}
+
+.product-sale-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

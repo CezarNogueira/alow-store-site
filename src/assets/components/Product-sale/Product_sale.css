@@ -1,0 +1,55 @@
+.product-sale-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.product-sale-image {
+    width: 75%;
+    border-radius: 10px;
+}
+
+.product-details {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.discount {
+    background-color: #006ec7;
+    color: white;
+    padding: 1% 1.5%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.buy-button-wrapper {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-button {
+    background-color: #0060B1;
+    color: white;
+    padding: 2% 6%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

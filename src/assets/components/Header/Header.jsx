@@ -3,6 +3,7 @@ import { MdFavoriteBorder } from "react-icons/md";
 import { MdSupportAgent } from "react-icons/md";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
@@ -14,7 +15,9 @@ export default function Header() {
                     </div>
 
                     <div className='header-element--logo'>
-                        <img className='header-logo--img' src="alow_logo.svg" alt="Logo" />
+                        <Link to='/'>
+                            <img className='header-logo--img' src="alow_logo.svg" alt="Logo"/>
+                        </Link>
                     </div>
 
                     <div className='header-elements--searchbar'>

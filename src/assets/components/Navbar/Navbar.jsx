@@ -12,12 +12,12 @@ export default function Navbar() {
                 
                     <div className='navbar-div'></div>
                     <div className='navbar-text'>
-                        <Link className="NavLink" to="/day-sales">OFERTAS DO DIA</Link>
+                        <Link className='NavLink' to='/day-sales'>OFERTAS DO DIA</Link>
                     </div>
 
                     <div className='navbar-div'></div>
                     <div className='navbar-text'>
-                        <p>CUPONS</p>
+                        <Link className='NavLink' to='/cupons'>CUPONS</Link>
                     </div>
 
                     <div className='navbar-div'></div>

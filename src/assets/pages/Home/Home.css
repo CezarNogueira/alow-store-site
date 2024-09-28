@@ -15,7 +15,7 @@
  }
 
  @media (max-width: 768px) {
-    .main-container section {
+    .home-container section {
         width: 100%;
     }
  }

@@ -6,6 +6,7 @@ import Footer from './assets/components/Footer/Footer';
 import Home from './assets/pages/Home/Home';
 import DaySales from './assets/pages/Day_sales/Day_sales'
 import Cupons from './assets/pages/Cupons/Cupons';
+import Product from './assets/pages/Product/Product';
 
 export default function App() {
 
@@ -19,6 +20,7 @@ export default function App() {
             <Route path='/' exact element={<Home />} />
             <Route path='/day-sales' element={<DaySales />} />
             <Route path='/cupons' element={<Cupons />} />
+            <Route path='/product' element={<Product />} />
           </Routes>
         </main>
         <footer><Footer /></footer>

@@ -1,0 +1,41 @@
+.cupom-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cupom-image {
+    width: 12%;
+    border-radius: 10px;
+}
+
+.cupom-name {
+    font-weight: bold;
+}
+
+.cupom-button-wrapper {
+    height: 5rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cupom-button {
+    background-color: #0060B1;
+    color: white;
+    padding: 8% 20%;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
